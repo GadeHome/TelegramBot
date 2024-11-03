@@ -188,9 +188,9 @@ dialog.list = []
 dialog.count = 0
 dialog.user = {}
 
-chatgpt = ChatGptService(token='gpt:IMAtcJ134WVIxVeFe7I2JFkblB3TH88zgyZ5JYpVQKKxZnKk')
+chatgpt = ChatGptService(token='')
 
-app = ApplicationBuilder().token('8097212465:AAEwOz4B2QmApkookdNQ9bxTuatdtQNOCe4').build()
+app = ApplicationBuilder().token('').build()
 app.add_handler(CommandHandler("start", start))
 app.add_handler(CommandHandler("gpt", gpt))
 app.add_handler(CommandHandler("date", date))
